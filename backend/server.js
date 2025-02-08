@@ -9,8 +9,10 @@ import postRoutes from './routes/PostRoutes.js';
 import MessageRoutes from './routes/MessageRoutes.js';
 import {v2 as cloudinary} from 'cloudinary';
 import {app,server} from "./socket/socket.js";
+import job from './crons/cron.js';
 dotenv.config();
 connectDb();
+job.start();
 
 
 app.use(cors());
