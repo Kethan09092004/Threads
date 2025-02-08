@@ -1,6 +1,6 @@
 import { useRecoilValue, useSetRecoilState } from "recoil"
 import Login from "../components/Login"
-import SignupCard from "../components/signUpCard"
+import SignupCard from "../components/SignupCard";
 import authScreenAtom from "../atoms/authAtoms"
 
 
