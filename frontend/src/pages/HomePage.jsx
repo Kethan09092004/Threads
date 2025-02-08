@@ -7,7 +7,7 @@ import Post from "../components/Post";
 import { useRecoilState } from "recoil";
 import postsAtom from "../atoms/postsAtom";
 import useShowToast from "../hooks/useShowToast";
-import SuggestedUsers from "../components/SuggestedUSers";
+import SuggestedUsers from "../components/SuggestedUsers";
 
 const HomePage=()=>{
   const [posts,setPosts]=useRecoilState(postsAtom);
